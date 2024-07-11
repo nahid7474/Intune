@@ -194,3 +194,35 @@ To further validate, I'll go back to the Intune Admin Center and this newly enro
 
 
 As expected, the device is there, managed by Intune, ownership Corporate, compliant and primary user is nnahin10@trialsc200lab.onmicrosoft.com  
+
+
+
+Next, **Application Deployment and configuration:**  
+
+From the Intune admin center homepage, click Apps > Windows apps > Add > windows 10 and later in App type, click Select
+
+
+![image](https://github.com/user-attachments/assets/33f091dc-cb62-4b91-b60c-3a743f6a0dc6)
+
+
+Give this app suite a name and click Next to continue
+
+![image](https://github.com/user-attachments/assets/5a7cc4ae-3ee2-4a61-8880-dd5a4ccc7ce2)
+
+
+Will select the apps needed, choose default file format as Office OpenXML Format, update channek as Monthly Enterprise Channel as recommended by Microsoft
+Click Next at the bottom to go to the Assignments page
+
+![image](https://github.com/user-attachments/assets/b5f4688d-1ca5-448f-b432-0d1c2bae8385)
+
+
+Will select my MDMTestGroup1-NahidHomeLab group as the target group under Available for enrolled devices, click Next
+
+![image](https://github.com/user-attachments/assets/939eaf66-2c58-4472-bb83-17a19a6c34c9)
+
+
+Review+Create
+
+![image](https://github.com/user-attachments/assets/b74a1f37-4ca4-4fac-b733-86bab9bdc6b9)
+
+
