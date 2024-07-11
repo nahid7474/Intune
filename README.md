@@ -134,15 +134,13 @@ To verify, I will sign out and sign in using the nnahin10@trialsc200lab.onmicros
 
 ![image](https://github.com/nahid7474/Intune/assets/170605912/04965d85-7e15-4434-b4da-9dbabb571971)
 
-This tie, click Other user
+This time, click Other user, use nnahin10@trialsc200lab.onmicrosoft.com and log in
 
 ![image](https://github.com/nahid7474/Intune/assets/170605912/4a0a3d0a-1735-42f5-8ab7-5c076bda33be)
 
+Click Ok
 
-
-
-
-
+![image](https://github.com/nahid7474/Intune/assets/170605912/a3c1297b-7d9b-4895-8ce6-abdf018603cb)
 
 
 Enter Password and Sign in, Action Required window pops up for 2FA set up , click Next
@@ -178,14 +176,21 @@ Click Next
 ![image](https://github.com/nahid7474/Intune/assets/170605912/68592490-39aa-433e-83f5-67f67b2d4b25)
 
 
-Enter password to verify
 
-![image](https://github.com/nahid7474/Intune/assets/170605912/c73bf4c7-4929-41e3-bfdc-087f222d9e4c)
+And it's done with the setup and enrollment process.  
+This computer is now connected to the NahidHomeLab domain via Microsoft Entra ID.  
+To verify, go to Settings, Account > Access work or school. and it shows that the device is now part of the NahidHomeLab's Azure AD.  
 
-And it's done with the setup and enrollment process, click 'info' to check details.
+![image](https://github.com/nahid7474/Intune/assets/170605912/0eef141d-e9c5-4c69-b88d-8cb8e53c97dd)
 
-![image](https://github.com/nahid7474/Intune/assets/170605912/7ce46d2b-63a4-4429-b548-ea2c3a96833d)
-
-
+Click Info for more validation.  
 
 
+
+To further validate, I'll go back to the Intune Admin Center and this newly enrolled device should be there.
+
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/e5cf2e23-8d03-466b-9330-f89d08fcc491)
+
+
+As expected, the device is there, managed by Intune, ownership Corporate, compliant and primary user is nnahin10@trialsc200lab.onmicrosoft.com  
