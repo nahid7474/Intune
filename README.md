@@ -1,4 +1,4 @@
-**Project Name: Unified Endpoint Management and Security with Microsoft Intune**
+**Project: Intune: Harnessing Advanced Endpoint Management**
 --------------------------------------------------------------------------------------
 **Hig Level Overview:**
 
