@@ -1,4 +1,4 @@
-**Project: Intune: Harnessing Advanced Endpoint Management**
+**Project: Harnessing Advanced Endpoint Management with Microsoft Intune**
 --------------------------------------------------------------------------------------
 **Hig Level Overview:**
 
