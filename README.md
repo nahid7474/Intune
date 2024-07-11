@@ -94,14 +94,97 @@ Licenses > Assignments
 
 Check the box, click Save  
 
-![image](https://github.com/nahid7474/Intune/assets/170605912/94c5c1cc-cdf1-434e-a989-e82e10c975b3)
+![image](https://github.com/nahid7474/Intune/assets/170605912/94c5c1cc-cdf1-434e-a989-e82e10c975b3)  
 
 
-Now that I have my group created, I am ready to configure MDM (Mobile Device Management) user scope and MAM (Mobile App Management) user scope.  
+Now that I have my group created, licenses assigned to the group members, I am ready to configure MDM (Mobile Device Management) user scope and MAM (Mobile App Management) user scope.  
 To do this, navigate to Devices > Enrollment > Automatic Enrollment from the home page.  
 
 ![image](https://github.com/nahid7474/Intune/assets/170605912/a2198ee1-31e1-4e8a-94ff-ab1f26706332)
 
+
+Select 'some' as the MDM scope, click 'No groups selected' to bring up the select groups pane, choose MDMTestGroup1-NahidHomeLab group and then click Select  
+Click Save.
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/fc1e6513-e11a-4ce7-b7f6-8ecbeeaa2ae4)
+
+I have my auto enrollment process created.  
+Now, I'll test this auto enrollment process from one one of the users in the group that I've created earlier.  
+I'll use user **nnahin10@trialsc200lab.onmicrosoft.com** from a windows 10 VM.  
+
+Will navigate to Settings > Access work or school > Connect  
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/d972cde3-0664-4c64-8321-acf9660b24d3)
+
+  
+Click **'Join this device to Microsoft Entra ID'**
+
+Use nnahin10@trialsc200lab.onmicrosoft.com account as this one is one of the member of MDMTestGroup1-NahidHomeLab group with an eligible license. 
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/cea573bc-af35-4273-b637-fe545b06a0bb)
+
+
+Click join as as the right tenant and user have been picked up
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/a9ac39f2-0eef-4aaa-985c-ae6971a7f2d8)
+
+
+All set, click Done. This should finish the onboarding process.  
+To verify, I will sign out and sign in using the nnahin10@trialsc200lab.onmicrosoft.com account this time instead of a local admin user.  
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/04965d85-7e15-4434-b4da-9dbabb571971)
+
+This tie, click Other user
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/4a0a3d0a-1735-42f5-8ab7-5c076bda33be)
+
+
+
+
+
+
+
+
+Enter Password and Sign in, Action Required window pops up for 2FA set up , click Next
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/b7afd16e-0fc1-4df5-98e0-a48aea484c1d)
+
+Click Next  
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/2c440eaf-aca1-4dfe-a3af-eb8fcfd097c8)
+
+Register with phone authenticator app and respond to the prompt with Yes
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/0d742416-cd19-4042-936a-ddcb03122f40)
+
+CLick Done.
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/498e17b2-4e43-429d-8b54-d842812f61f5)
+
+Wait a moment for company policy to kick in.
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/b9a084f5-dbbe-45cc-9a48-08521e196459)
+
+Click OK.
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/33f2995b-087a-46a3-aaed-d65ca86ca6a7)
+
+Set up a PIN
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/195ecae1-3cc2-4a3b-aa25-9ac28d840c6b)
+
+Click Next
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/68592490-39aa-433e-83f5-67f67b2d4b25)
+
+
+Enter password to verify
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/c73bf4c7-4929-41e3-bfdc-087f222d9e4c)
+
+And it's done with the setup and enrollment process, click 'info' to check details.
+
+![image](https://github.com/nahid7474/Intune/assets/170605912/7ce46d2b-63a4-4429-b548-ea2c3a96833d)
 
 
 
