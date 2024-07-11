@@ -66,7 +66,7 @@ Will keep the type as a Security group, name it as MDMTestGroup1-NahidHomeLab, T
 ![image](https://github.com/nahid7474/Intune/assets/170605912/67ef585e-613d-4114-9086-8c5903d3d195)
 
 
-A note on different group types:
+A note on different group types:  
 **Security Groups**: Primarily used for controlling access to resources and applying security policies across various Microsoft services, focusing on access permissions and security enforcement.  
 
 **Microsoft 365 Groups**: Designed for collaboration and communication within the Microsoft 365 ecosystem, integrating across applications like Outlook, Teams, SharePoint, and OneDrive to facilitate shared resources and collaborative workflows.  
