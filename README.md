@@ -226,3 +226,23 @@ Review+Create
 ![image](https://github.com/user-attachments/assets/b74a1f37-4ca4-4fac-b733-86bab9bdc6b9)
 
 
+Deployment successful.
+
+Similarly, I'll deploy company portal app for all my users and devices
+
+![image](https://github.com/user-attachments/assets/f529f361-39c9-4741-88b1-fd3e2a21c479)
+
+
+In about 5 minutes this app got deployed on my client machine
+
+![image](https://github.com/user-attachments/assets/ab1e3e9a-aae6-4c43-9ec4-0b0d55606406)
+
+
+And, I can see now my deployed Office application there as expected
+
+![image](https://github.com/user-attachments/assets/c3ac75ef-f641-4af7-8fdd-2d47964a6bd5)
+
+
+They are just a click away from installation on eligible/compliant devices.
+
+![image](https://github.com/user-attachments/assets/a9a79014-1c18-410c-a393-7d5af3cca48a)
