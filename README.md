@@ -274,9 +274,6 @@ Mark devices with no compliance as Non Compliant, change the validity period as 
 
 
 
-
-
-
 Next stop, **Device compliance policy creation and setup**  
 
 To create a new policy, click COmpliance from the Devices tab, click Create policy  
@@ -321,7 +318,45 @@ Review + Create
 
 ![image](https://github.com/user-attachments/assets/b019e3e3-a943-451a-85f6-6eb2461e2b44)
 
-Now the devoce policy profile is successfully created as per the organisational standat and best practices.  
+Now the device policy profile is successfully created as per the organisational standard and best practices.  
+
+![image](https://github.com/user-attachments/assets/ecdb1757-9e14-45f2-8ddb-8deb06833566)
+
+
+
+
+
+My Next Stop, **Remote Wipe and Remove a Device in Intune**
+
+To wipe a device remotely in case it is stolen, or missing or other reasons, simply go to the target device and click Wipe at the top.  
+
+![image](https://github.com/user-attachments/assets/033f407c-d1d2-40ef-8cb6-ca2ccc17e8cb)  
+
+THis will prompt for two options to choose from.  
+
+Wipe device, and continue to wipe even if device loses power. 
+Or Wipe device, but keep enrollment state and associated user account.  
+
+In this case, I'll choose 'continue to wipe even if device loses power'
+
+![image](https://github.com/user-attachments/assets/8c065675-410e-49fe-bff3-e4316981be0a)
+
+This will initiate the wipe immediately.  
+
+I go to this client computer and it took a few minutes to start resetting/wiping out.  
+
+![image](https://github.com/user-attachments/assets/a2ff4c72-e660-4ce5-8266-6ee965a06bf5)
+
+Once, reset/wipe is done, this resource is no longer available in the admin portal.  
+
+![image](https://github.com/user-attachments/assets/0ac7e859-ba80-4f99-81e8-010117649636)
+
+
+Next Stop, **Configure automatic Windows Updates and Security Patch Deployment via Intune**  
+
+
+
+
 
 
 
