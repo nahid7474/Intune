@@ -25,8 +25,8 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
 - Single Sign-On (SSO): 
     - Enable users to sign in once for seamless and secure user access to corporae resources.
 
-- Patch Management: 
-    - Manage and deploy Windows updates to devices, ensuring they are up-to-date with the latest security patches and feature updates.
+- Updates and Patch Management: 
+    - Manage and deploy Windows updates to devices, ensuring they are up-to-date with the latest security patches and features.
 
 - Conditional Access and Multi-Factor Authentication (MFA): 
     - Strengthen security by enforcing conditional access policies for accessing corporate resources.
@@ -352,11 +352,41 @@ Once, reset/wipe is done, this resource is no longer available in the admin port
 ![image](https://github.com/user-attachments/assets/0ac7e859-ba80-4f99-81e8-010117649636)
 
 
-Next Stop, **Configure automatic Windows Updates and Security Patch Deployment via Intune**  
+Next Stop, **Deploy Updates Rings & Patches for Windows 10 & 11 via Intune**  
+
+First step is to create a profile under Update rings. 
+To do that, navigate to Devices > WIndows > Windows 10 and later updates  
+Click Create profile  
+
+![image](https://github.com/user-attachments/assets/ee6e0728-209f-4311-a0b3-4e2e79b9dce1)
+
+Give it a name, click Next  
+
+![image](https://github.com/user-attachments/assets/4e9613df-0009-4f0f-8370-62c49175c75a)
 
 
+On the Update ring settings, turn the controls/policies on or off in regards to the security best practices.  
+
+This is important settings  and may need discussion with other teams/departments.  
+FOr my **NahidHomeLab** organization, I'll create the update profile as per below setting.  
+Click Next  
+
+![image](https://github.com/user-attachments/assets/71215811-5638-4260-a7e5-a1a5d693a60f)  
 
 
+Will assign this policy to my test group without any exception. Click Next  
 
+![image](https://github.com/user-attachments/assets/d9bcac06-582a-4dd7-b6e3-9583e9f466e2)
 
+Review + Create  
+
+![image](https://github.com/user-attachments/assets/767b3f64-6333-4782-bda5-621936e90af3)
+
+I have my update profile created now.  
+
+![image](https://github.com/user-attachments/assets/085df9d8-119a-4c1d-aef9-98e353640e50)
+
+This policy is now running with both the feature and quality update options.  
+
+![image](https://github.com/user-attachments/assets/d6ab0546-673a-4b06-a43a-310b87ef9f18)
 
