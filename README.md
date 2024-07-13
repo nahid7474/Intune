@@ -34,7 +34,7 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
 ----------------------------------------------------------------------
 
 
-First step, provide a correct license to Intune Administrator from Microsoft 365 Admin Center.  
+First step, provide a correct license to Intune Administrator from Microsoft 365 Admin Center to provide with the ability to perform all the tasks mentioned above.  
 To achieve this, I'll heaad over to my Microsoft 365 admin portal here, https://admin.microsoft.com/  
 I'll now assign **Enterprise Mobility + Security E5** license to my Admin account NNN@trialsc200lab.onmicrosoft.com so this user can perform all action that Intune has to offer.  
 This is one of the eligible licenses.  
