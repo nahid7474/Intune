@@ -294,9 +294,34 @@ In COmpliance settings, will configure the policy as I need in line with my orga
 In this case, I'll require bitlocker, require password to unlock mobile devices, set a Minimum password length, expiry date etc.  
 
 
-
 ![image](https://github.com/user-attachments/assets/553d431f-b2a2-469d-a734-89f367eb4461)
 
+
+For Device Security, will turn Firewall as a requirement, as well as Antivitus, Antispyware, and Microsoft Defender Antimalware turned on.  
+Click Next  
+
+
+![image](https://github.com/user-attachments/assets/c8a2c1eb-6c7b-4aab-bb36-63c7f4b9edaf)
+
+
+If the device doesn't meet all the required policies/standards set above, I'll mark the device as non-compliant immediately and add this device to retire list.  
+Click Next.  
+
+![image](https://github.com/user-attachments/assets/87ee2e0c-c95e-4f98-892f-9f98584260c5)
+
+To apply these policies to all users and devices, I'll add all devices and users group.  
+If I want I can exclude a group of users or devices to exempt from this polices (exceptional cases)  
+In that case, I'll add that group to the Excluded group list.  
+CLick Next  
+
+![image](https://github.com/user-attachments/assets/0a6f176d-d424-40fb-ba75-77ec6282f621)
+
+Review + Create
+
+
+![image](https://github.com/user-attachments/assets/b019e3e3-a943-451a-85f6-6eb2461e2b44)
+
+Now the devoce policy profile is successfully created as per the organisational standat and best practices.  
 
 
 
