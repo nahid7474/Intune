@@ -2,7 +2,7 @@
 --------------------------------------------------------------------------------------
 **Hig Level Overview:**
 
-This project will use Microsoft Intune to manage endpoint devices, securing corporate data, implementing access controls, integrate Azure AD for user authentication and policy enforcement and  more... 
+This project will use Microsoft Intune to manage endpoint devices, securing corporate data, implementing access controls, policy enforcement and more... 
 
 
 **Summary Activities:**
