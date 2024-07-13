@@ -246,3 +246,57 @@ And, I can see now my deployed Office application there as expected
 They are just a click away from installation on eligible/compliant devices.
 
 ![image](https://github.com/user-attachments/assets/a9a79014-1c18-410c-a393-7d5af3cca48a)
+
+
+
+Next stop, **Device compliance policy creation and deploy**
+
+To do this, first I'll disable the default compliance policy that makes all enrolled device compliant by default. 
+
+Click on any device that are enrolled
+
+![image](https://github.com/user-attachments/assets/2f1206ca-fd89-48fc-bb65-0193080eb2d0)
+
+This device was showing compliant but device compliant shows that it is on error state
+
+![image](https://github.com/user-attachments/assets/73ebae6a-6ee5-4983-a238-25f406314a05)
+
+
+Click Default Device Compliance Policy, there is no custom device policy assigned
+
+![image](https://github.com/user-attachments/assets/b9ef8ecd-8f24-470b-8adc-bd1fd41fc0c6)
+
+
+Will now change this by navigating to Devices > Compliance > Compliance settings  
+Mark devices with no compliance as Non Compliant, change the validity period as 3 days, click Save    
+
+![image](https://github.com/user-attachments/assets/b16d2155-25f6-484b-8ffb-b37af5920865)
+
+
+
+
+
+
+Next stop, **Device compliance policy creation and setup**  
+
+To create a new policy, click COmpliance from the Devices tab, click Create policy  
+Closse platform as Windows 10 or later  
+Click Create.  
+
+![image](https://github.com/user-attachments/assets/a0747584-2a86-410d-8df9-575cc7273b2f)
+
+Give it a name, click Next  
+
+![image](https://github.com/user-attachments/assets/e47566fe-4866-43c5-bdb5-cfb68116a7d5)  
+
+
+In COmpliance settings, will configure the policy as I need in line with my organization and security best proactices.  
+In this case, I'll require bitlocker, require password to unlock mobile devices, set a Minimum password length, expiry date etc.  
+
+
+
+![image](https://github.com/user-attachments/assets/553d431f-b2a2-469d-a734-89f367eb4461)
+
+
+
+
