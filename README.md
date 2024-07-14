@@ -16,7 +16,7 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
 - Create and Deploy Security Policy: 
     - Implement and deploy security baselines and policies to protect devices from threats and vulnerabilities for both endpoints, users and applications.
     - Configure Automatic Lock Screen for Inactive Device
-    - Configure a Windows Shared Multi-user Device policy
+    - Configure a Windows Shared Multi-user Device policy/roaming policy
 
 - Integrate Azure AD with Intune: 
     - Leverage Azure AD for user authentication and to enforce access policies across devices and apps.
@@ -436,11 +436,35 @@ Review the policy settings and click Create.
 
 And, that's it! Screen lock policy is now established.  
 
-![image](https://github.com/user-attachments/assets/032871b9-fa65-4a5a-9b2e-c3cc024640d2)
+![image](https://github.com/user-attachments/assets/032871b9-fa65-4a5a-9b2e-c3cc024640d2)  
+
+
 
 
 Next Stop, **Configure a Windows Shared Multi-user Device**
 
+
+First, will create a device profile for that and assign this profile to appropriate device/device group. 
+
+From the Intune Admin Center, click Devices > Windows > Configuration > Create > New Policy  
+
+![image](https://github.com/user-attachments/assets/6f6f8b89-9ab0-4057-918b-d829923e4a6f)
+
+
+Choose Windows 10 or later as platform, Shared multi-user device as Template profile.  
+Click Create  
+
+![image](https://github.com/user-attachments/assets/a2de215b-ebb4-490d-9601-cc695400148b)
+
+Give it a name, click Next  
+
+![image](https://github.com/user-attachments/assets/296750c9-47c2-4ea1-a66e-0caba5bf0829)
+
+On the COnfiguration blade, 
+As per my organization policy and standards, I'll keep some of the setting enabled and some will stay turned off.  
+Click Next to the Assignments tab.  
+
+![image](https://github.com/user-attachments/assets/0f4e751f-fef6-4b3a-a6d3-2cefe4f2c6ba)
 
 
 
