@@ -15,6 +15,8 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
 
 - Create and Deploy Security Policy: 
     - Implement and deploy security baselines and policies to protect devices from threats and vulnerabilities for both endpoints, users and applications.
+    - Configure Automatic Lock Screen for Inactive Device
+    - Configure a Windows Shared Multi-user Device policy
 
 - Integrate Azure AD with Intune: 
     - Leverage Azure AD for user authentication and to enforce access policies across devices and apps.
@@ -389,4 +391,58 @@ I have my update profile created now.
 This policy is now running with both the feature and quality update options.  
 
 ![image](https://github.com/user-attachments/assets/d6ab0546-673a-4b06-a43a-310b87ef9f18)
+
+
+
+
+Next Stop, **Configure Automatic Lock Screen for Inactive Device**  
+
+To achieve this, I'll create a configuration profile.  
+Navigate to Devices > Windows > Configuration > Under Policy clck Create  
+
+![image](https://github.com/user-attachments/assets/dc676424-e141-42bf-9f0b-2a4b37bb1450)  
+
+With windows 10 and later option and Setting catalog selected, click Next  
+
+![image](https://github.com/user-attachments/assets/f53e127e-06cb-4f2e-afe8-a021a2658880)
+
+Give it a name, click Next  
+
+![image](https://github.com/user-attachments/assets/b2623155-43c9-42c5-9174-652e5ee23eb9)
+
+Click Add settings to browse all the available catalog to choose from.  
+
+![image](https://github.com/user-attachments/assets/3120370a-ec25-4ecd-be72-8c33d8d31bdb)
+
+Choose Device lock from the settings picker. 13 settings in device lock category will appear.  
+Select the box Device Password Enabled > Max Inactivity Time Device Lock  
+
+![image](https://github.com/user-attachments/assets/8c7ec1f6-9304-46a6-8b4b-a9fa01857214)
+
+Enable 'Device Password Enabled' switch and set a Max Inactivity Time Device Lock time as 5 minutes.  Click Next  
+
+![image](https://github.com/user-attachments/assets/b85b2235-8d70-4d3e-a042-3b4b09b34a7c)
+
+
+Leave the Scope Tag as default and click Next.  
+Assign this policy to my MDMTestGroup1-NahidHomeLab group, click Next  
+
+![image](https://github.com/user-attachments/assets/6c4b3f4d-7030-4ccd-9229-c870dda0a8da)
+
+
+Review the policy settings and click Create.  
+
+![image](https://github.com/user-attachments/assets/266157a4-3a2a-40cb-a8d5-dd0e7442dab0)
+
+And, that's it! Screen lock policy is now established.  
+
+![image](https://github.com/user-attachments/assets/032871b9-fa65-4a5a-9b2e-c3cc024640d2)
+
+
+Next Stop, **Configure a Windows Shared Multi-user Device**
+
+
+
+
+
 
