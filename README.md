@@ -467,6 +467,14 @@ Click Next to the Assignments tab.
 ![image](https://github.com/user-attachments/assets/0f4e751f-fef6-4b3a-a6d3-2cefe4f2c6ba)
 
 
+Will assign it for all users, click Next  
+
+![image](https://github.com/user-attachments/assets/96cc0fa3-9978-459d-b8f9-1090cc756fd8)
+
+WiIl leave the Applicability Rules as it is because I don't have enough devices at the moment.  
+Click Next to review and create, click Create  
+
+![image](https://github.com/user-attachments/assets/cb3c7a1c-02c8-4343-98b9-9e36e369ac6d)
 
 
 
