@@ -503,8 +503,7 @@ There are 26 security configuration settings available for this base profile.
 ![image](https://github.com/user-attachments/assets/8e2972e8-3e66-474b-adf8-21b5ae4547f5)
 
 
-Out of these 26 settings, I'll configure 11 of them as per my corporate needs and security best practice.  
-Here is a summary of my chosen ones.  
+Out of these 26 settings, I'll adjust 11 of them as per my corporate needs and security best practice and leave the rest of them as default for now.  
 
 1. **Administrative Templates:** Configure to enforce centralized management of Windows settings.
 2. **Auditing:** Enable to monitor system events and user activities for security auditing.
@@ -519,5 +518,15 @@ Here is a summary of my chosen ones.
 11. **User Rights:** Configure to manage user privileges and access controls.
 
 CLick Next  
+Assign this policy profile to all users and devices, click Next  
 
+![image](https://github.com/user-attachments/assets/7cb6162a-2fab-418a-b942-7af677724c7b)
+
+Review + Create  
+
+![image](https://github.com/user-attachments/assets/efeb06d3-8c2a-4dc8-aa9f-9a03585b5d0a)
+
+Security baseline profile is now active and assigned to all my users and devices.  
+
+![image](https://github.com/user-attachments/assets/cc42732f-62d5-497b-985b-00bcd79110fe)
 
