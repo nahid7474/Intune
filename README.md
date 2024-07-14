@@ -13,19 +13,18 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
 - Application Deployment and configuration:
     - Deploy and manage apps, apply app protection policies to protect corporate data.
 
-- Create and Deploy Security Policy: 
-    - Implement and deploy security baselines and policies to protect devices from threats and vulnerabilities for both endpoints, users and applications.
+- Create and Deploy Security features/Policies: 
+    - Implement and deploy security baselines and policies to protect endpoints, users and applications.
     - Configure Automatic Lock Screen for Inactive Device
     - Configure a Windows Shared Multi-user Device policy/roaming policy
+    - Manage browser settings from Intune
+    - 
 
 - Integrate Azure AD with Intune: 
     - Leverage Azure AD for user authentication and to enforce access policies across devices and apps.
 
 - Remote Actions and Troubleshooting: 
     - Remotely wipe corporate data from lost or stolen devices to prevent unauthorized access, or lock them from access.
-
-- Single Sign-On (SSO): 
-    - Enable users to sign in once for seamless and secure user access to corporae resources.
 
 - Updates and Patch Management: 
     - Manage and deploy Windows updates to devices, ensuring they are up-to-date with the latest security patches and features.
@@ -476,5 +475,49 @@ Click Next to review and create, click Create
 
 ![image](https://github.com/user-attachments/assets/cb3c7a1c-02c8-4343-98b9-9e36e369ac6d)
 
+And my multi user device policy profile is ceated.  
+
+
+
+Nest Stop, **Create and Apply Security Baseline Policy**  
+
+
+To create a security baseline profile,  
+Navigate to Endpoint security > Security baseline > Security Baseline for Windows 10 and later.  
+
+![image](https://github.com/user-attachments/assets/ffe03640-388b-466c-8944-773578b30760)
+
+Click Profile > Create profile > Create  
+
+![image](https://github.com/user-attachments/assets/ae3a265f-6493-4aae-a9e3-7ea61b3ca559)
+
+
+Give it a name and optional description, click Next  
+
+![image](https://github.com/user-attachments/assets/d3e92ba0-1f82-404a-8a34-9da115c14bad)
+
+
+There are 26 security configuration settings available for this base profile.  
+
+
+![image](https://github.com/user-attachments/assets/8e2972e8-3e66-474b-adf8-21b5ae4547f5)
+
+
+Out of these 26 settings, I'll configure 11 of them as per my corporate needs and security best practice.  
+Here is a summary of my chosen ones.  
+
+1. **Administrative Templates:** Configure to enforce centralized management of Windows settings.
+2. **Auditing:** Enable to monitor system events and user activities for security auditing.
+3. **Data Protection:** Enable policies for encrypting and protecting sensitive data.
+4. **Defender:** Configure antivirus and security features for protection against threats.
+5. **Device Guard:** Enable to control which applications can run on devices, enhancing security.
+6. **Firewall:** Configure Windows Firewall rules to control inbound and outbound traffic.
+7. **Local Policies Security Options:** Configure essential security policies for system hardening.
+8. **Local Security Authority:** Configure authentication and authorization policies.
+9. **Privacy:** Manage privacy settings to control data collection and sharing.
+10. **Smart Screen:** Enable to protect against malicious websites and downloads.
+11. **User Rights:** Configure to manage user privileges and access controls.
+
+CLick Next  
 
 
