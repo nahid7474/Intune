@@ -18,7 +18,8 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
     - Configure Automatic Lock Screen for Inactive Device
     - Configure a Windows Shared Multi-user Device policy/roaming policy
     - Manage browser settings from Intune
-    - 
+    - Configure Microsoft Defender Antivirus Policy
+    - Configure Role based Access Control
 
 - Integrate Azure AD with Intune: 
     - Leverage Azure AD for user authentication and to enforce access policies across devices and apps.
@@ -31,6 +32,7 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
 
 - Conditional Access and Multi-Factor Authentication (MFA): 
     - Strengthen security by enforcing conditional access policies for accessing corporate resources.
+    - Create a Device based Conditional Access Policy
 
 ----------------------------------------------------------------------
 
