@@ -21,7 +21,7 @@ This project will use Microsoft Intune to manage endpoint devices, securing corp
     - Configure Microsoft Defender Antivirus Policy
     - Configure Role based Access Control
 
-- Implement SSO (Single Sign On):
+- IAM (Identity and Access Management) and SSO (Single Sign On) Implementation:
   
 - Integrate Azure AD with Intune: 
     - Leverage Azure AD for user authentication and to enforce access policies across devices and apps.
